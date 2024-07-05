@@ -2,9 +2,6 @@
 /* This is google fonts import (link)*/
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Oswald:wght@200..700&display=swap');
 
-
-
-
 /* wildcard seletor to overide default settings on your browser*/
 *{
     margin: 0;
@@ -56,6 +53,20 @@ h1{
 .active{
     border-bottom; 1px solid #3a3a3a;
 }
+
+
+/*Makes main element take up any surplus pace wgich pushes the footer down*/
+nav{
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display:none;
+}
+
+
 
 main{
     background-color:red ;
