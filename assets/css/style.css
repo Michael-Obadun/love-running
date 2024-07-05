@@ -125,12 +125,13 @@ h1{
 main{
     /*push main content down to accomidate for larger header*/
     margin-top: 75px;
-}
-
+    }
+ }
+/*Media Queries*/
+ /*Media qury for tablel screens latger than 760px and up*/
+ @media screen and (min-width: 992px) {
+    #menu a:hover{
+        border-bottom: 1px solid #3a3a3a;
+    }
 
  }
-
-
-
-
-
