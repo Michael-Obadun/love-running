@@ -22,12 +22,22 @@ body{
     font-family:"lato", san-serif;
 }
 
-
-
 header{
     background-color:blue;
     height: ;
 }
+
+
+h1{
+    font-family:"oswald", san-serif;
+}
+
+
+
+
+
+
+
 
 main{
     background-color:red ;
@@ -38,6 +48,21 @@ main{
 footer{
     background-color:green ;
 }
+
+
+
+
+
+
+
+h1{
+    font-family:"oswald", san-serif;
+}
+
+
+
+
+
 
 
 
