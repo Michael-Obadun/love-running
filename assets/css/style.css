@@ -1,4 +1,10 @@
 
+/* This is google fonts import (link)*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Oswald:wght@200..700&display=swap');
+
+
+
+
 /* wildcard seletor to overide default settings on your browser*/
 *{
     margin: 0;
@@ -13,6 +19,7 @@ body{
     flex-direction: column;
 /*General Styles*/
     color: #3a3a3a;
+    font-family:"lato", san-serif;
 }
 
 
