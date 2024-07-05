@@ -93,23 +93,41 @@ footer{
 }
 
 
-
-
-
-
-
 h1{
     font-family:"oswald", san-serif;
 }
 
 
 
+ /*Media Queries*/
+
+ /*Media qury for tablel screens latger than 760px and up*/
 
 
+ @media screen and (min-width: 760px) {
+ /*Header*/
+    nav{
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 2rem;
+    }
+ 
+    #menu{
+        display: flex;
+    }
+
+    #menu > li{
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label{
+        display: none;
+    }
 
 
-
-
+ }
 
 
 
