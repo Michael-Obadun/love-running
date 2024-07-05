@@ -81,13 +81,11 @@ nav{
     font-size: 2rem;
 }
 
-
-
-
 main{
     background-color:red ;
 /*Makes main element take up any surplus pace wgich pushes the footer down*/
     flex:1 0 auto;
+    margin-top: 47px;
 }
 
 footer{
