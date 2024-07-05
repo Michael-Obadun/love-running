@@ -1,0 +1,30 @@
+
+/* wildcard seletor to overide default settings on your browser*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+header{
+    background-color:blue;
+    height: ;
+}
+
+main{
+    background-color:red ;
+    height: ;
+}
+
+footer{
+    background-color:green ;
+}
+
+
+
+
+
+
+
+
+
