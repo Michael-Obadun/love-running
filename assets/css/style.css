@@ -97,6 +97,16 @@ main{
     list-style-type:none;
 }
 
+/*Stles for font awsome iconsr*/
+#social-networks i{
+    fomt-size: 160%;
+    padding:5%;
+    color:#3a3a3a;
+}
+
+
+
+
 h1{
     font-family:"oswald", san-serif;
 }
