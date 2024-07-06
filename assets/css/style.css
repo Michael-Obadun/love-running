@@ -88,8 +88,13 @@ main{
     margin-top: 47px;
 }
 
-footer{
-    background-color:green ;
+ /*footer*/
+ #social-networks{
+    text-align:center;
+    padding:20px 0;
+    display:flex;
+    justify-content:space-evenly;
+    list-style-type:none;
 }
 
 h1{
