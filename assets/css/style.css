@@ -44,14 +44,15 @@ nav a{
 }
 
 
-.menu[
+#menu{
     font-size: 110%;
     letter-spacing: 4px;
     list-style-type: none;
-]
+}
 
 .menu > li{
     margin-bottom: 1em;
+    text-decoration:none;
 }
 
 .active{
@@ -93,11 +94,12 @@ main{
     height: 600px;
     width:100%;
    background:url("../images/hero-image.webp") no-repeat center center/cover;
+   position:relative;
 }
 
 #cover-text{
     /*the last digit sets the alpha value*/
-    background-color:rgba(241, 109, 107, .7)
+    background-color: rgba(241, 109, 107, .7);
     fomt-size:130%;
     position:absolute;
     bottom:30px;
@@ -106,6 +108,11 @@ main{
     padding-top:40px;
     padding-left:10px;
 }
+
+#cover-text > h2, #cover-text >h3{
+    color:#ffffff
+}
+
 
  /*footer*/
  #social-networks{
@@ -153,6 +160,13 @@ main{
     /*push main content down to accomidate for larger header*/
     margin-top: 75px;
     }
+
+/*hero*/
+#cover-text{
+    width:300px;
+    right:50px;
+}
+
  }
 /*Media Queries*/
  /*Media qury for tablel screens latger than 760px and up*/
