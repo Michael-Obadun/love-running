@@ -19,6 +19,13 @@ body{
     font-family:"lato", san-serif;
 }
 
+h1, h2, h3{
+    font-family:"oswald", san-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525;
+}
+
 header{
     background-color: #ffffff;
     padding: 0 1rem;
@@ -36,12 +43,6 @@ nav a{
     color: inherit;
 }
 
-h1{
-    font-family:"oswald", san-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #252525;
-}
 
 .menu[
     font-size: 110%;
@@ -90,11 +91,20 @@ main{
 /*hero secion styles*/
 #hero{
     height: 600px;
-    width:100%
-     /*background-color: lightgreen;*/
-    /*background: url("../images/hero-image.png") no-repeat center center/cover;*/
+    width:100%;
    background:url("../images/hero-image.webp") no-repeat center center/cover;
-   background:url("../images/hero-image.webp") no-repeat center center/cover;
+}
+
+#cover-text{
+    /*the last digit sets the alpha value*/
+    background-color:rgba(241, 109, 107, .7)
+    fomt-size:130%;
+    position:absolute;
+    bottom:30px;
+    width:80%;
+    min-height:200px;
+    padding-top:40px;
+    padding-left:10px;
 }
 
  /*footer*/
